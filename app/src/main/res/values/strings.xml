@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animal Info</string>
+    <string name="animal_name">Animal Name</string>
+    <string name="legs_number">Number of Legs</string>
+    <string name="has_fur">Has Fur?</string>
+    <string name="more_information">More Information</string>
+    <string name="submit_button">Submit</string>
+    <string name="add_animal_button">Add Another Animal</string>
+    <string name="title_view">Animal Information</string>
+</resources>

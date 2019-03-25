@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".InfoActivity">
+
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/title_view"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            app:layout_constraintVertical_weight="1" />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/title_view"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <Button
+            android:id="@+id/add_animal_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:onClick="addAnimal"
+            android:text="@string/add_animal_button"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="639dp" />
+
+    </LinearLayout>
+
+</ScrollView>
